@@ -1,19 +1,14 @@
 <!DOCTYPE html>
 <html>
+<head><title>Many Variables</title></head>
 <body>
-
-<h1>JavaScript Variables</h1>
-
-<p>You can declare many variables in one statement.</p>
-
-<p id="demo"></p>
-
-<script>
-let person = "John Doe",
-carName = "Volvo",
-price = 200;
-document.getElementById("demo").innerHTML = carName;
-</script>
-
+    <script>
+        let var1 = "Hello";
+        let var2 = 10;
+        let var3 = true;
+        let var4 = null;
+        let var5;
+        document.write(var1 + "<br>" + var2 + "<br>" + var3 + "<br>" + var4 + "<br>" + var5);
+    </script>
 </body>
 </html>

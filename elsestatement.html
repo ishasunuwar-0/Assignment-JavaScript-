@@ -1,25 +1,14 @@
 <!DOCTYPE html>
 <html>
+<head><title>Else Statement</title></head>
 <body>
-
-<h2>JavaScript if .. else</h2>
-
-<p>A time-based greeting:</p>
-
-<p id="demo"></p>
-
-<script>
-const hour = new Date().getHours(); 
-let greeting;
-
-if (hour < 18) {
-  greeting = "Good day";
-} else {
-  greeting = "Good evening";
-}
-
-document.getElementById("demo").innerHTML = greeting;
-</script>
-
+    <script>
+        let num = 5;
+        if (num > 10) {
+            document.write("Greater than 10");
+        } else {
+            document.write("Less than or equal to 10");
+        }
+    </script>
 </body>
 </html>
